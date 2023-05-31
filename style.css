@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+}
+
+#container {
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+    margin: 0 auto;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: aliceblue;
+    font-size: 20px;
+}
+
+#display {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+#alarmeb {
+    border: none;
+    margin: 10px;
+    background-color: rgb(81, 231, 161);
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+#inhora,
+#inminuto,
+#insegundo {
+    border-radius: 3px;
+    border: none;
+    border: 1px solid rgb(8, 136, 36);
+    background-color: rgb(126, 248, 126);
+}
+
+body {
+    background-color: rgb(179, 255, 103);
+}
+
+#info {
+    background-color: rgb(88, 84, 81);
+    position: fixed;
+    left: 10;
+    top:-10px;
+    width: 300px;
+    height:50px;
+    border-radius: 10px;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    display: none;
+}
+#parar{
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    display: none;
+    text-decoration:underline;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALARME</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <DIV id="container">
+        <div id="display">
+            <p id="hour">00</p>
+            <p>:</p>
+            <p id="minute">00</p>
+            <p>:</p>
+            <p id="second">00</p>
+        </div>
+        <div id="alarmc">
+            <input type="number" placeholder="HORA" id="inhora" min="00" max="23">
+            <input type="number" placeholder="MINUTO" id="inminuto" min="00" max="59">
+            <input type="number" placeholder="SEGUNDOS" id="insegundo" min="00" max="59">
+            <button id="alarmeb" onclick="setAlarm()">PROGRAMAR ALARME</button>
+        </div>
+    </DIV>
+    <div id="info">
+        <p id="showalarm"></p>
+        <p onclick="stop()" id="parar">PARAR</p>
+    </div>
+    <script src="/main.js"></script>
+</body>
+
+</html>
